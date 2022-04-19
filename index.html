@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG DESAIN</title>
+    <style>
+        body {
+            background: #ffffff;
+            margin: 0%;
+        }
+        
+        .header {
+            min-height: 40px;
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        .header-logo {
+            width: 30%;
+            min-height: 150px;
+            float: left;
+            text-align: center;
+            vertical-align: middle;
+            margin-top: 10px;
+        }
+        
+        .header-navigation {
+            width: 50%;
+            min-height: 30px;
+            float: right;
+            vertical-align: middle;
+        }
+        
+        .header-navigation li {
+            list-style: none;
+            display: inline-block;
+            padding: 10px;
+        }
+        
+        .header-navigation ul a {
+            text-decoration: none;
+            color: rgb(13, 98, 155);
+            font-family: myFont;
+        }
+        
+        .header-navigation ul a:hover {
+            color: rgb(141, 134, 139);
+        }
+        
+        .contents {
+            min-height: 500px;
+            margin: 10px;
+            padding: 10px;
+            overflow: hidden;
+        }
+        
+        .article-content {
+            width: 65%;
+            min-height: 500px;
+            float: left;
+            margin: 0 5px 5px 5px;
+        }
+        
+        .sidebar-content {
+            width: 25%;
+            background: white;
+            min-height: 500px;
+            float: left;
+        }
+        
+        .footers {
+            min-height: 100px;
+            background: black;
+            color: white;
+        }
+        
+        .title-content {
+            color: rgb(8, 101, 158);
+            font-family: myFont;
+        }
+        
+        @font-face {
+            font-family: myFont;
+            src: url(font/Mulish-Italic-VariableFont_wght.ttf);
+        }
+        
+        .widget {
+            padding: 15px;
+            border-radius: 20px;
+            box-shadow: rgb(197, 197, 197) 0 2px 13px 1px;
+        }
+        
+        .widget-title {
+            font-size: 20px;
+            color: white;
+            border-bottom: white solid;
+        }
+        
+        .widget-content ul {
+            list-style: none;
+        }
+        
+        .widget-content li a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .web-color {
+            color: rgb(8, 101, 158);
+        }
+        
+        .web-font {
+            font-family: myFont;
+        }
+        
+        .shadow {
+            box-shadow: grey 0 0 13px 1px;
+        }
+        
+        .bg-gradient-blue {
+            background-image: linear-gradient(to bottom right, rgb(8, 101, 158), rgb(104, 213, 231));
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header shadow">
+        <div class="header-logo">
+            <img src="asset/img/codeti.png" alt="Logo" width="200">
+        </div>
+        <div class="header-navigation">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">NEWS</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">ABOUT</a></li>
+            </ul>
+        </div>
+        <marquee class="web-color web-font">:: Selamat Datang Di Web Pribadi MUH SAID YUKI SUMARDI, Dapatkan Tutorial Tentang Desain Web Disini ::</marquee>
+    </div>
+    <div class="contents">
+        <div class="article-content">
+            <h2 class="title-content">Selamat Datang Di Website Pertama Saya</h2>
+        </div>
+        <div class="sidebar-content">
+            <div class="widget bg-gradient-blue">
+                <div class="widget-title web-font">Kategori</div>
+                <div class="widget-content web-font">
+                    <ul>
+                        <li><a href="#">Front End</a></li>
+                        <li><a href="#">Back End</a></li>
+                        <li><a href="#">PHP Tutorial</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footers"></div>
+
+</body>
+
+</html>
